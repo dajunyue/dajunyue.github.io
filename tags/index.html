@@ -252,11 +252,115 @@ $('.bg-cover').css('background-image', 'url(/medias/banner/' + new Date().getDay
             </div>
             <div class="tag-chips">
                 
+                
+                <a href="/tags/C/" title="C++: 16">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            data-tagname="C++" style="background-color: #F9EBEA;">C++
+                        <span class="tag-length">16</span>
+                    </span>
+                </a>
+                
+                
+                <a href="/tags/Python/" title="Python: 8">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            data-tagname="Python" style="background-color: #F5EEF8;">Python
+                        <span class="tag-length">8</span>
+                    </span>
+                </a>
+                
+                
+                <a href="/tags/Scratch/" title="Scratch: 7">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            data-tagname="Scratch" style="background-color: #D5F5E3;">Scratch
+                        <span class="tag-length">7</span>
+                    </span>
+                </a>
+                
+                
+                <a href="/tags/Writing/" title="Writing: 1">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            data-tagname="Writing" style="background-color: #E8F8F5;">Writing
+                        <span class="tag-length">1</span>
+                    </span>
+                </a>
+                
+                
+                <a href="/tags/Photography/" title="Photography: 1">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            data-tagname="Photography" style="background-color: #FEF9E7;">Photography
+                        <span class="tag-length">1</span>
+                    </span>
+                </a>
+                
+                
+                <a href="/tags/Mathematics/" title="Mathematics: 1">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            data-tagname="Mathematics" style="background-color: #F8F9F9;">Mathematics
+                        <span class="tag-length">1</span>
+                    </span>
+                </a>
+                
+                
+                <a href="/tags/English/" title="English: 1">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            data-tagname="English" style="background-color: #82E0AA;">English
+                        <span class="tag-length">1</span>
+                    </span>
+                </a>
+                
+                
+                <a href="/tags/Video-clip/" title="Video clip: 1">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            data-tagname="Video clip" style="background-color: #D7BDE2;">Video clip
+                        <span class="tag-length">1</span>
+                    </span>
+                </a>
+                
+                
+                <a href="/tags/Marathon/" title="Marathon: 1">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            data-tagname="Marathon" style="background-color: #A3E4D7;">Marathon
+                        <span class="tag-length">1</span>
+                    </span>
+                </a>
+                
             </div>
         </div>
     </div>
 </div>
 
+    
+    <link rel="stylesheet" type="text/css" href="/libs/jqcloud/jqcloud.css">
+<style type="text/css">
+    #tag-wordcloud {
+        width: 100%;
+        height: 300px;
+    }
+</style>
+
+<div class="container" data-aos="fade-up">
+    <div class="card">
+        <div id="tag-wordcloud" class="card-content"></div>
+    </div>
+</div>
+
+<script type="text/javascript" src="/libs/jqcloud/jqcloud-1.0.4.min.js"></script>
+<script type="text/javascript">
+    
+
+    $('#tag-wordcloud').jQCloud([{"text":"C++","weight":16,"link":"/tags/C/"},{"text":"Python","weight":8,"link":"/tags/Python/"},{"text":"Scratch","weight":7,"link":"/tags/Scratch/"},{"text":"Writing","weight":1,"link":"/tags/Writing/"},{"text":"Photography","weight":1,"link":"/tags/Photography/"},{"text":"Mathematics","weight":1,"link":"/tags/Mathematics/"},{"text":"English","weight":1,"link":"/tags/English/"},{"text":"Video clip","weight":1,"link":"/tags/Video-clip/"},{"text":"Marathon","weight":1,"link":"/tags/Marathon/"}], {
+        autoResize: true
+    });
+</script>
     
 
 </main>
@@ -268,7 +372,7 @@ $('.bg-cover').css('background-image', 'url(/medias/banner/' + new Date().getDay
 
             
             &nbsp;<i class="fa fa-area-chart"></i>&nbsp;站点总字数:&nbsp;
-            <span class="white-color">21.8k</span>
+            <span class="white-color">22k</span>
             
 
             <br>
@@ -386,7 +490,7 @@ $('.bg-cover').css('background-image', 'url(/medias/banner/' + new Date().getDay
     }/*因为建站时间还没有一年，就将之注释掉了。需要的可以取消*/
     siteTime();
 </script>
-<span class="post-count">21.8k words altogether</span>
+<span class="post-count">22k words altogether</span>
 
     <!-- 搜索遮罩框 -->
 <div id="searchModal" class="modal">
