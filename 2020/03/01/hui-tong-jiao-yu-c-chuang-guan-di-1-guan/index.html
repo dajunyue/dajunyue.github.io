@@ -374,7 +374,7 @@
                 
                 <div class="info-break-policy">
                     <i class="fa fa-file-word-o fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    1.2k
+                    1.1k
                 </div>
                 
 
@@ -405,181 +405,190 @@
 <p>5    6</p>
 <p>输出：</p>
 <p>6</p>
-<pre><code>#include &lt;bits/stdc++.h&gt;
-using namespace std;
-int main(){
-    int a, b;
-    cin &gt;&gt; a &gt;&gt; b;
+<pre class="line-numbers language-cpp"><code class="language-cpp"><span class="token macro property">#<span class="token directive keyword">include</span> <span class="token string">&lt;bits/stdc++.h></span></span>
+<span class="token keyword">using</span> <span class="token keyword">namespace</span> std<span class="token punctuation">;</span>
+<span class="token keyword">int</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+    <span class="token keyword">int</span> a<span class="token punctuation">,</span> b<span class="token punctuation">;</span>
+    cin <span class="token operator">>></span> a <span class="token operator">>></span> b<span class="token punctuation">;</span>
 
-    if(a &gt; b) cout &lt;&lt; a;
-    else cout &lt;&lt; b;    
+    <span class="token keyword">if</span><span class="token punctuation">(</span>a <span class="token operator">></span> b<span class="token punctuation">)</span> cout <span class="token operator">&lt;&lt;</span> a<span class="token punctuation">;</span>
+    <span class="token keyword">else</span> cout <span class="token operator">&lt;&lt;</span> b<span class="token punctuation">;</span>    
 
-    return 0;
-}</code></pre><h3 id="889-余数大小"><a href="#889-余数大小" class="headerlink" title="889.余数大小"></a><strong>889.</strong>余数大小</h3><h3 id="题目描述-1"><a href="#题目描述-1" class="headerlink" title="题目描述"></a>题目描述</h3><p>输入3个1000000以内的正整数a、b和c，输出a%c和b%c中的较小的数。</p>
+    <span class="token keyword">return</span> <span class="token number">0</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<h3 id="889-余数大小"><a href="#889-余数大小" class="headerlink" title="889.余数大小"></a><strong>889.</strong>余数大小</h3><h3 id="题目描述-1"><a href="#题目描述-1" class="headerlink" title="题目描述"></a>题目描述</h3><p>输入3个1000000以内的正整数a、b和c，输出a%c和b%c中的较小的数。</p>
 <h3 id="输入格式-1"><a href="#输入格式-1" class="headerlink" title="输入格式"></a>输入格式</h3><p> 一行3个正整数：a、b和c，范围在[1,1000000]。</p>
 <h3 id="输出格式-1"><a href="#输出格式-1" class="headerlink" title="输出格式"></a>输出格式</h3><p> 一个整数。</p>
 <h3 id="输入-输出例子1-1"><a href="#输入-输出例子1-1" class="headerlink" title="输入/输出例子1"></a>输入/输出例子1</h3><p>输入：</p>
 <p>5  6  3</p>
 <p>输出：</p>
 <p>0</p>
-<pre><code>#include &lt;bits/stdc++.h&gt;
-using namespace std;
-int main(){
-    int a, b, c;
-    cin &gt;&gt; a &gt;&gt; b &gt;&gt; c;
+<pre class="line-numbers language-cpp"><code class="language-cpp"><span class="token macro property">#<span class="token directive keyword">include</span> <span class="token string">&lt;bits/stdc++.h></span></span>
+<span class="token keyword">using</span> <span class="token keyword">namespace</span> std<span class="token punctuation">;</span>
+<span class="token keyword">int</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+    <span class="token keyword">int</span> a<span class="token punctuation">,</span> b<span class="token punctuation">,</span> c<span class="token punctuation">;</span>
+    cin <span class="token operator">>></span> a <span class="token operator">>></span> b <span class="token operator">>></span> c<span class="token punctuation">;</span>
 
-    if(a % c &gt; b % c) cout &lt;&lt; b % c &lt;&lt; endl;
-    else cout &lt;&lt; a % c &lt;&lt; endl;
+    <span class="token keyword">if</span><span class="token punctuation">(</span>a <span class="token operator">%</span> c <span class="token operator">></span> b <span class="token operator">%</span> c<span class="token punctuation">)</span> cout <span class="token operator">&lt;&lt;</span> b <span class="token operator">%</span> c <span class="token operator">&lt;&lt;</span> endl<span class="token punctuation">;</span>
+    <span class="token keyword">else</span> cout <span class="token operator">&lt;&lt;</span> a <span class="token operator">%</span> c <span class="token operator">&lt;&lt;</span> endl<span class="token punctuation">;</span>
 
-    return 0;
-}</code></pre><h3 id="890-三角形判断"><a href="#890-三角形判断" class="headerlink" title="890.三角形判断"></a><strong>890.</strong>三角形判断</h3><h3 id="题目描述-2"><a href="#题目描述-2" class="headerlink" title="题目描述"></a>题目描述</h3><p>输入3个1000000以内的正整数a、b和c（a&lt; b &lt; c），判断能否以a、b和c为长度画出一个三角形？可以输出“yes”，否则输出“no”。</p>
+    <span class="token keyword">return</span> <span class="token number">0</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<h3 id="890-三角形判断"><a href="#890-三角形判断" class="headerlink" title="890.三角形判断"></a><strong>890.</strong>三角形判断</h3><h3 id="题目描述-2"><a href="#题目描述-2" class="headerlink" title="题目描述"></a>题目描述</h3><p>输入3个1000000以内的正整数a、b和c（a&lt; b &lt; c），判断能否以a、b和c为长度画出一个三角形？可以输出“yes”，否则输出“no”。</p>
 <h3 id="输入格式-2"><a href="#输入格式-2" class="headerlink" title="输入格式"></a>输入格式</h3><p> 一行3个正整数：a、b和c，范围在[1,1000000]。</p>
 <h3 id="输出格式-2"><a href="#输出格式-2" class="headerlink" title="输出格式"></a>输出格式</h3><p> yes或no。</p>
 <h3 id="输入-输出例子1-2"><a href="#输入-输出例子1-2" class="headerlink" title="输入/输出例子1"></a>输入/输出例子1</h3><p>输入：</p>
 <p>5  6  10</p>
 <p>输出：</p>
 <p>yes</p>
-<pre><code>#include&lt;bits/stdc++.h&gt;
-using namespace std;
-int main(){
+<pre class="line-numbers language-cpp"><code class="language-cpp"><span class="token macro property">#<span class="token directive keyword">include</span><span class="token string">&lt;bits/stdc++.h></span></span>
+<span class="token keyword">using</span> <span class="token keyword">namespace</span> std<span class="token punctuation">;</span>
+<span class="token keyword">int</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
 
-    int a, b, c;
-    cin &gt;&gt; a &gt;&gt; b &gt;&gt; c;
+    <span class="token keyword">int</span> a<span class="token punctuation">,</span> b<span class="token punctuation">,</span> c<span class="token punctuation">;</span>
+    cin <span class="token operator">>></span> a <span class="token operator">>></span> b <span class="token operator">>></span> c<span class="token punctuation">;</span>
 
-    if((a + b) &gt; c)
-    {
-        cout &lt;&lt; &quot;yes&quot; &lt;&lt; endl;
-    }
+    <span class="token keyword">if</span><span class="token punctuation">(</span><span class="token punctuation">(</span>a <span class="token operator">+</span> b<span class="token punctuation">)</span> <span class="token operator">></span> c<span class="token punctuation">)</span>
+    <span class="token punctuation">{</span>
+        cout <span class="token operator">&lt;&lt;</span> <span class="token string">"yes"</span> <span class="token operator">&lt;&lt;</span> endl<span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
 
-    else
-    {
-        cout &lt;&lt; &quot;no&quot; &lt;&lt; endl;
-    }
+    <span class="token keyword">else</span>
+    <span class="token punctuation">{</span>
+        cout <span class="token operator">&lt;&lt;</span> <span class="token string">"no"</span> <span class="token operator">&lt;&lt;</span> endl<span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
 
-    return 0;
-}</code></pre><h3 id="891-数的奇偶"><a href="#891-数的奇偶" class="headerlink" title="891.数的奇偶"></a><strong>891.</strong>数的奇偶</h3><h3 id="题目描述-3"><a href="#题目描述-3" class="headerlink" title="题目描述"></a>题目描述</h3><p>输入1个正整数a，如果是奇数打印1，是偶数打印0。</p>
+    <span class="token keyword">return</span> <span class="token number">0</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<h3 id="891-数的奇偶"><a href="#891-数的奇偶" class="headerlink" title="891.数的奇偶"></a><strong>891.</strong>数的奇偶</h3><h3 id="题目描述-3"><a href="#题目描述-3" class="headerlink" title="题目描述"></a>题目描述</h3><p>输入1个正整数a，如果是奇数打印1，是偶数打印0。</p>
 <h3 id="输入格式-3"><a href="#输入格式-3" class="headerlink" title="输入格式"></a>输入格式</h3><p> 一行1个正整数：a，范围在[1,100000000]。</p>
 <h3 id="输出格式-3"><a href="#输出格式-3" class="headerlink" title="输出格式"></a>输出格式</h3><p>1个整数：1或0。</p>
 <h3 id="输入-输出例子1-3"><a href="#输入-输出例子1-3" class="headerlink" title="输入/输出例子1"></a>输入/输出例子1</h3><p>输入：</p>
 <p>430512</p>
 <p>输出：</p>
 <p>0</p>
-<pre><code>#include&lt;bits/stdc++.h&gt;
-using namespace std;
-int main(){
+<pre class="line-numbers language-cpp"><code class="language-cpp"><span class="token macro property">#<span class="token directive keyword">include</span><span class="token string">&lt;bits/stdc++.h></span></span>
+<span class="token keyword">using</span> <span class="token keyword">namespace</span> std<span class="token punctuation">;</span>
+<span class="token keyword">int</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
 
-    int a;
-    cin &gt;&gt; a;
+    <span class="token keyword">int</span> a<span class="token punctuation">;</span>
+    cin <span class="token operator">>></span> a<span class="token punctuation">;</span>
 
-    if(a % 2 == 0)
-    {
-        cout &lt;&lt; &quot;0&quot; &lt;&lt; endl;
-    }
-    else
-    {
-        cout &lt;&lt; &quot;1&quot; &lt;&lt; endl;
-    }
-    return 0;
-}</code></pre><h3 id="892-同奇偶"><a href="#892-同奇偶" class="headerlink" title="892.同奇偶"></a><strong>892.</strong>同奇偶</h3><h3 id="题目描述-4"><a href="#题目描述-4" class="headerlink" title="题目描述"></a>题目描述</h3><p>输入2个1000000以内的正整数a和b，如果a和b的奇偶性相同输出“yes”，否则输出“no”。</p>
+    <span class="token keyword">if</span><span class="token punctuation">(</span>a <span class="token operator">%</span> <span class="token number">2</span> <span class="token operator">==</span> <span class="token number">0</span><span class="token punctuation">)</span>
+    <span class="token punctuation">{</span>
+        cout <span class="token operator">&lt;&lt;</span> <span class="token string">"0"</span> <span class="token operator">&lt;&lt;</span> endl<span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+    <span class="token keyword">else</span>
+    <span class="token punctuation">{</span>
+        cout <span class="token operator">&lt;&lt;</span> <span class="token string">"1"</span> <span class="token operator">&lt;&lt;</span> endl<span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+    <span class="token keyword">return</span> <span class="token number">0</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<h3 id="892-同奇偶"><a href="#892-同奇偶" class="headerlink" title="892.同奇偶"></a><strong>892.</strong>同奇偶</h3><h3 id="题目描述-4"><a href="#题目描述-4" class="headerlink" title="题目描述"></a>题目描述</h3><p>输入2个1000000以内的正整数a和b，如果a和b的奇偶性相同输出“yes”，否则输出“no”。</p>
 <h3 id="输入格式-4"><a href="#输入格式-4" class="headerlink" title="输入格式"></a>输入格式</h3><p> 一行2个正整数：a和b，范围在[1,1000000]。</p>
 <h3 id="输出格式-4"><a href="#输出格式-4" class="headerlink" title="输出格式"></a>输出格式</h3><p> yes或no。</p>
 <h3 id="输入-输出例子1-4"><a href="#输入-输出例子1-4" class="headerlink" title="输入/输出例子1"></a>输入/输出例子1</h3><p>输入：</p>
 <p> 6  10</p>
 <p>输出：</p>
 <p>yes</p>
-<pre><code>#include&lt;bits/stdc++.h&gt;
-using namespace std;
-int main(){
+<pre class="line-numbers language-cpp"><code class="language-cpp"><span class="token macro property">#<span class="token directive keyword">include</span><span class="token string">&lt;bits/stdc++.h></span></span>
+<span class="token keyword">using</span> <span class="token keyword">namespace</span> std<span class="token punctuation">;</span>
+<span class="token keyword">int</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
 
-    int a, b;
-    cin &gt;&gt; a &gt;&gt; b;
+    <span class="token keyword">int</span> a<span class="token punctuation">,</span> b<span class="token punctuation">;</span>
+    cin <span class="token operator">>></span> a <span class="token operator">>></span> b<span class="token punctuation">;</span>
 
-    if(a % 2 == b % 2)
-    {
-        cout &lt;&lt; &quot;yes&quot; &lt;&lt; endl;
-    }
-    else
-    {
-        cout &lt;&lt; &quot;no&quot; &lt;&lt; endl;
-    }
-    return 0;
-}</code></pre><h3 id="893-奇数个数"><a href="#893-奇数个数" class="headerlink" title="893.奇数个数"></a><strong>893.</strong>奇数个数</h3><h3 id="题目描述-5"><a href="#题目描述-5" class="headerlink" title="题目描述"></a>题目描述</h3><p>输入4个1000000以内的正整数，统计其中奇数的个数。</p>
+    <span class="token keyword">if</span><span class="token punctuation">(</span>a <span class="token operator">%</span> <span class="token number">2</span> <span class="token operator">==</span> b <span class="token operator">%</span> <span class="token number">2</span><span class="token punctuation">)</span>
+    <span class="token punctuation">{</span>
+        cout <span class="token operator">&lt;&lt;</span> <span class="token string">"yes"</span> <span class="token operator">&lt;&lt;</span> endl<span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+    <span class="token keyword">else</span>
+    <span class="token punctuation">{</span>
+        cout <span class="token operator">&lt;&lt;</span> <span class="token string">"no"</span> <span class="token operator">&lt;&lt;</span> endl<span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+    <span class="token keyword">return</span> <span class="token number">0</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<h3 id="893-奇数个数"><a href="#893-奇数个数" class="headerlink" title="893.奇数个数"></a><strong>893.</strong>奇数个数</h3><h3 id="题目描述-5"><a href="#题目描述-5" class="headerlink" title="题目描述"></a>题目描述</h3><p>输入4个1000000以内的正整数，统计其中奇数的个数。</p>
 <h3 id="输入格式-5"><a href="#输入格式-5" class="headerlink" title="输入格式"></a>输入格式</h3><p> 一行4个正整数：范围在[1,1000000]。</p>
 <h3 id="输出格式-5"><a href="#输出格式-5" class="headerlink" title="输出格式"></a>输出格式</h3><p> 一个整数。</p>
 <h3 id="输入-输出例子1-5"><a href="#输入-输出例子1-5" class="headerlink" title="输入/输出例子1"></a>输入/输出例子1</h3><p>输入：</p>
 <p> 6  7  10  121</p>
 <p>输出：</p>
 <p>2</p>
-<pre><code>#include&lt;bits/stdc++.h&gt;
-using namespace std;
-int main()
-{
-  long num,cnt=0;
+<pre class="line-numbers language-cpp"><code class="language-cpp"><span class="token macro property">#<span class="token directive keyword">include</span><span class="token string">&lt;bits/stdc++.h></span></span>
+<span class="token keyword">using</span> <span class="token keyword">namespace</span> std<span class="token punctuation">;</span>
+<span class="token keyword">int</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+<span class="token punctuation">{</span>
+  <span class="token keyword">long</span> num<span class="token punctuation">,</span>cnt<span class="token operator">=</span><span class="token number">0</span><span class="token punctuation">;</span>
 
-  while(cin&gt;&gt;num)
-  {
-    if(num%2==1)
-       cnt++;
-  }
+  <span class="token keyword">while</span><span class="token punctuation">(</span>cin<span class="token operator">>></span>num<span class="token punctuation">)</span>
+  <span class="token punctuation">{</span>
+    <span class="token keyword">if</span><span class="token punctuation">(</span>num<span class="token operator">%</span><span class="token number">2</span><span class="token operator">==</span><span class="token number">1</span><span class="token punctuation">)</span>
+       cnt<span class="token operator">++</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
 
-  cout&lt;&lt;cnt&lt;&lt;endl;
-  return 0;
+  cout<span class="token operator">&lt;&lt;</span>cnt<span class="token operator">&lt;&lt;</span>endl<span class="token punctuation">;</span>
+  <span class="token keyword">return</span> <span class="token number">0</span><span class="token punctuation">;</span>
 
-    return 0;
-}</code></pre><h3 id="894-数的因子"><a href="#894-数的因子" class="headerlink" title="894.数的因子"></a><strong>894.</strong>数的因子</h3><h3 id="题目描述-6"><a href="#题目描述-6" class="headerlink" title="题目描述"></a>题目描述</h3><p>输入2个正整数a和b，如果a是b的因子打印”yes”，否则打印”no”。</p>
+    <span class="token keyword">return</span> <span class="token number">0</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<h3 id="894-数的因子"><a href="#894-数的因子" class="headerlink" title="894.数的因子"></a><strong>894.</strong>数的因子</h3><h3 id="题目描述-6"><a href="#题目描述-6" class="headerlink" title="题目描述"></a>题目描述</h3><p>输入2个正整数a和b，如果a是b的因子打印”yes”，否则打印”no”。</p>
 <h3 id="输入格式-6"><a href="#输入格式-6" class="headerlink" title="输入格式"></a>输入格式</h3><p> 一行2个正整数：a和b，范围在[1,100000000]。</p>
 <h3 id="输出格式-6"><a href="#输出格式-6" class="headerlink" title="输出格式"></a>输出格式</h3><p>yes或no。</p>
 <h3 id="输入-输出例子1-6"><a href="#输入-输出例子1-6" class="headerlink" title="输入/输出例子1"></a>输入/输出例子1</h3><p>输入：</p>
 <p> 6  120</p>
 <p>输出：</p>
 <p>yes</p>
-<pre><code>#include&lt;bits/stdc++.h&gt;
-using namespace std;
-int main(){
-  long a,b;
-  cin&gt;&gt;a&gt;&gt;b;
-  if(a!=b&amp;&amp;b%a==0)
-    cout&lt;&lt;&quot;yes&quot;&lt;&lt;endl;
-  else
-    cout&lt;&lt;&quot;no&quot;&lt;&lt;endl;
-  return 0;
-}</code></pre><h3 id="895-地砖"><a href="#895-地砖" class="headerlink" title="895.地砖"></a><strong>895.</strong>地砖</h3><h3 id="题目描述-7"><a href="#题目描述-7" class="headerlink" title="题目描述"></a>题目描述</h3><p>有个房间，a公分长，b公分宽，现在地砖是边长c公分的正方形，问能不能在不切割地砖的情况下，正好铺满这个房间。能打印”yes”，否则打印”no”。<br>注：不考虑地砖的缝隙问题。</p>
+<pre class="line-numbers language-cpp"><code class="language-cpp"><span class="token macro property">#<span class="token directive keyword">include</span><span class="token string">&lt;bits/stdc++.h></span></span>
+<span class="token keyword">using</span> <span class="token keyword">namespace</span> std<span class="token punctuation">;</span>
+<span class="token keyword">int</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+  <span class="token keyword">long</span> a<span class="token punctuation">,</span>b<span class="token punctuation">;</span>
+  cin<span class="token operator">>></span>a<span class="token operator">>></span>b<span class="token punctuation">;</span>
+  <span class="token keyword">if</span><span class="token punctuation">(</span>a<span class="token operator">!=</span>b<span class="token operator">&amp;&amp;</span>b<span class="token operator">%</span>a<span class="token operator">==</span><span class="token number">0</span><span class="token punctuation">)</span>
+    cout<span class="token operator">&lt;&lt;</span><span class="token string">"yes"</span><span class="token operator">&lt;&lt;</span>endl<span class="token punctuation">;</span>
+  <span class="token keyword">else</span>
+    cout<span class="token operator">&lt;&lt;</span><span class="token string">"no"</span><span class="token operator">&lt;&lt;</span>endl<span class="token punctuation">;</span>
+  <span class="token keyword">return</span> <span class="token number">0</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<h3 id="895-地砖"><a href="#895-地砖" class="headerlink" title="895.地砖"></a><strong>895.</strong>地砖</h3><h3 id="题目描述-7"><a href="#题目描述-7" class="headerlink" title="题目描述"></a>题目描述</h3><p>有个房间，a公分长，b公分宽，现在地砖是边长c公分的正方形，问能不能在不切割地砖的情况下，正好铺满这个房间。能打印”yes”，否则打印”no”。<br>注：不考虑地砖的缝隙问题。</p>
 <h3 id="输入格式-7"><a href="#输入格式-7" class="headerlink" title="输入格式"></a>输入格式</h3><p> 一行3个正整数：a、b和c，范围在[1,1000000]。</p>
 <h3 id="输出格式-7"><a href="#输出格式-7" class="headerlink" title="输出格式"></a>输出格式</h3><p>yes或no。</p>
 <h3 id="输入-输出例子1-7"><a href="#输入-输出例子1-7" class="headerlink" title="输入/输出例子1"></a>输入/输出例子1</h3><p>输入：</p>
 <p> 320  1024  8</p>
 <p>输出：</p>
 <p> yes</p>
-<pre><code>#include&lt;bits/stdc++.h&gt;
-using namespace std;
-int main(){
-  long a,b,c;
-  cin&gt;&gt;a&gt;&gt;b&gt;&gt;c;
-  if(a%c==0&amp;&amp;b%c==0)
-    cout&lt;&lt;&quot;yes&quot;&lt;&lt;endl;
-  else
-    cout&lt;&lt;&quot;no&quot;&lt;&lt;endl;
+<pre class="line-numbers language-cpp"><code class="language-cpp"><span class="token macro property">#<span class="token directive keyword">include</span><span class="token string">&lt;bits/stdc++.h></span></span>
+<span class="token keyword">using</span> <span class="token keyword">namespace</span> std<span class="token punctuation">;</span>
+<span class="token keyword">int</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+  <span class="token keyword">long</span> a<span class="token punctuation">,</span>b<span class="token punctuation">,</span>c<span class="token punctuation">;</span>
+  cin<span class="token operator">>></span>a<span class="token operator">>></span>b<span class="token operator">>></span>c<span class="token punctuation">;</span>
+  <span class="token keyword">if</span><span class="token punctuation">(</span>a<span class="token operator">%</span>c<span class="token operator">==</span><span class="token number">0</span><span class="token operator">&amp;&amp;</span>b<span class="token operator">%</span>c<span class="token operator">==</span><span class="token number">0</span><span class="token punctuation">)</span>
+    cout<span class="token operator">&lt;&lt;</span><span class="token string">"yes"</span><span class="token operator">&lt;&lt;</span>endl<span class="token punctuation">;</span>
+  <span class="token keyword">else</span>
+    cout<span class="token operator">&lt;&lt;</span><span class="token string">"no"</span><span class="token operator">&lt;&lt;</span>endl<span class="token punctuation">;</span>
 
-    return 0;
-}</code></pre><h3 id="896-糖果分堆"><a href="#896-糖果分堆" class="headerlink" title="896.糖果分堆"></a><strong>896.</strong>糖果分堆</h3><h3 id="题目描述-8"><a href="#题目描述-8" class="headerlink" title="题目描述"></a>题目描述</h3><p>有N颗相同的糖果要分成几堆相同个数的。小明希望每堆是a颗糖，小丁希望每堆是b颗糖。但只有一种方案是成立的，请问正确的方案能分成几堆？</p>
+    <span class="token keyword">return</span> <span class="token number">0</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<h3 id="896-糖果分堆"><a href="#896-糖果分堆" class="headerlink" title="896.糖果分堆"></a><strong>896.</strong>糖果分堆</h3><h3 id="题目描述-8"><a href="#题目描述-8" class="headerlink" title="题目描述"></a>题目描述</h3><p>有N颗相同的糖果要分成几堆相同个数的。小明希望每堆是a颗糖，小丁希望每堆是b颗糖。但只有一种方案是成立的，请问正确的方案能分成几堆？</p>
 <h3 id="输入格式-8"><a href="#输入格式-8" class="headerlink" title="输入格式"></a>输入格式</h3><p> 一行3个正整数：n、a和b，范围在[1,1000000]。</p>
 <h3 id="输出格式-8"><a href="#输出格式-8" class="headerlink" title="输出格式"></a>输出格式</h3><p> 一个整数。</p>
 <h3 id="输入-输出例子1-8"><a href="#输入-输出例子1-8" class="headerlink" title="输入/输出例子1"></a>输入/输出例子1</h3><p>输入：</p>
 <p>30  7  6</p>
 <p>输出：</p>
 <p>5</p>
-<pre><code>#include&lt;bits/stdc++.h&gt;
-using namespace std;
-int main(){
+<pre class="line-numbers language-cpp"><code class="language-cpp"><span class="token macro property">#<span class="token directive keyword">include</span><span class="token string">&lt;bits/stdc++.h></span></span>
+<span class="token keyword">using</span> <span class="token keyword">namespace</span> std<span class="token punctuation">;</span>
+<span class="token keyword">int</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
 
-  long a,b,n;
-  cin&gt;&gt;n&gt;&gt;a&gt;&gt;b;
-  if(n%a==0)
-    cout&lt;&lt;n/a&lt;&lt;endl;
-  else
-    cout&lt;&lt;n/b&lt;&lt;endl;
-    return 0;
-}</code></pre>
+  <span class="token keyword">long</span> a<span class="token punctuation">,</span>b<span class="token punctuation">,</span>n<span class="token punctuation">;</span>
+  cin<span class="token operator">>></span>n<span class="token operator">>></span>a<span class="token operator">>></span>b<span class="token punctuation">;</span>
+  <span class="token keyword">if</span><span class="token punctuation">(</span>n<span class="token operator">%</span>a<span class="token operator">==</span><span class="token number">0</span><span class="token punctuation">)</span>
+    cout<span class="token operator">&lt;&lt;</span>n<span class="token operator">/</span>a<span class="token operator">&lt;&lt;</span>endl<span class="token punctuation">;</span>
+  <span class="token keyword">else</span>
+    cout<span class="token operator">&lt;&lt;</span>n<span class="token operator">/</span>b<span class="token operator">&lt;&lt;</span>endl<span class="token punctuation">;</span>
+    <span class="token keyword">return</span> <span class="token number">0</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
             </div>
             <hr />
 
@@ -1007,7 +1016,7 @@ int main(){
 
             
             &nbsp;<i class="fa fa-area-chart"></i>&nbsp;站点总字数:&nbsp;
-            <span class="white-color">22k</span>
+            <span class="white-color">22.2k</span>
             
 
             <br>
@@ -1125,7 +1134,7 @@ int main(){
     }/*因为建站时间还没有一年，就将之注释掉了。需要的可以取消*/
     siteTime();
 </script>
-<span class="post-count">22k words altogether</span>
+<span class="post-count">22.2k words altogether</span>
 
     <!-- 搜索遮罩框 -->
 <div id="searchModal" class="modal">

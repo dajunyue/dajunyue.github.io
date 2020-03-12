@@ -373,7 +373,7 @@
                 
                 <div class="info-break-policy">
                     <i class="fa fa-file-word-o fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    139
+                    133
                 </div>
                 
 
@@ -404,24 +404,25 @@
 <p>4<br>3  6  1  9</p>
 <p>输出：</p>
 <p>9</p>
-<pre><code>#include &lt;iostream&gt;
-#include &lt;limits.h&gt;
-using namespace std;
-int main() {
-    int N;
-    cin &gt;&gt; N;
+<pre class="line-numbers language-cpp"><code class="language-cpp"><span class="token macro property">#<span class="token directive keyword">include</span> <span class="token string">&lt;iostream></span></span>
+<span class="token macro property">#<span class="token directive keyword">include</span> <span class="token string">&lt;limits.h></span></span>
+<span class="token keyword">using</span> <span class="token keyword">namespace</span> std<span class="token punctuation">;</span>
+<span class="token keyword">int</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">int</span> N<span class="token punctuation">;</span>
+    cin <span class="token operator">>></span> N<span class="token punctuation">;</span>
 
-    int maxVal = INT_MIN;
-    for(int i=0; i&lt;N; i++) {
-        int num;
-        cin &gt;&gt; num;
+    <span class="token keyword">int</span> maxVal <span class="token operator">=</span> INT_MIN<span class="token punctuation">;</span>
+    <span class="token keyword">for</span><span class="token punctuation">(</span><span class="token keyword">int</span> i<span class="token operator">=</span><span class="token number">0</span><span class="token punctuation">;</span> i<span class="token operator">&lt;</span>N<span class="token punctuation">;</span> i<span class="token operator">++</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token keyword">int</span> num<span class="token punctuation">;</span>
+        cin <span class="token operator">>></span> num<span class="token punctuation">;</span>
 
-        maxVal = std::max(maxVal, num);
-    }
+        maxVal <span class="token operator">=</span> std<span class="token operator">::</span><span class="token function">max</span><span class="token punctuation">(</span>maxVal<span class="token punctuation">,</span> num<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
 
-    cout &lt;&lt; maxVal &lt;&lt; endl;
-    return 0;
-}</code></pre>
+    cout <span class="token operator">&lt;&lt;</span> maxVal <span class="token operator">&lt;&lt;</span> endl<span class="token punctuation">;</span>
+    <span class="token keyword">return</span> <span class="token number">0</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
             </div>
             <hr />
 
@@ -857,7 +858,7 @@ int main() {
 
             
             &nbsp;<i class="fa fa-area-chart"></i>&nbsp;站点总字数:&nbsp;
-            <span class="white-color">22k</span>
+            <span class="white-color">22.2k</span>
             
 
             <br>
@@ -975,7 +976,7 @@ int main() {
     }/*因为建站时间还没有一年，就将之注释掉了。需要的可以取消*/
     siteTime();
 </script>
-<span class="post-count">22k words altogether</span>
+<span class="post-count">22.2k words altogether</span>
 
     <!-- 搜索遮罩框 -->
 <div id="searchModal" class="modal">
