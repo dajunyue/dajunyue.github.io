@@ -4,16 +4,16 @@
   
     
     <entry>
-      <title>编程语言连连看</title>
-      <link href="/2020/03/12/bian-cheng-yu-yan-lian-lian-kan/"/>
-      <url>/2020/03/12/bian-cheng-yu-yan-lian-lian-kan/</url>
+      <title>编程语言连连看_第一课</title>
+      <link href="/2020/03/12/bian-cheng-yu-yan-lian-lian-kan-di-yi-ke/"/>
+      <url>/2020/03/12/bian-cheng-yu-yan-lian-lian-kan-di-yi-ke/</url>
       
         <content type="html"><![CDATA[<h1 id="第一课-编程是什么"><a href="#第一课-编程是什么" class="headerlink" title="第一课 编程是什么?"></a>第一课 编程是什么?</h1><h2 id="一、不问是什么，只问怎么做"><a href="#一、不问是什么，只问怎么做" class="headerlink" title="一、不问是什么，只问怎么做"></a>一、不问是什么，只问怎么做</h2><h3 id="1-编程要用什么"><a href="#1-编程要用什么" class="headerlink" title="1.编程要用什么"></a>1.编程要用什么</h3><p>纸笔</p><p>电脑：Scratch Desktop、Jupyter、Dev-C++</p><h3 id="2-编程像什么"><a href="#2-编程像什么" class="headerlink" title="2.编程像什么"></a>2.编程像什么</h3><p>语文</p><p>英语</p><h3 id="3-编程有什么"><a href="#3-编程有什么" class="headerlink" title="3.编程有什么"></a>3.编程有什么</h3><p>【单词】字符、【单词表】数组、列表、字典、【段落】函数、【文章】库、类</p><h3 id="4-编程能干嘛"><a href="#4-编程能干嘛" class="headerlink" title="4.编程能干嘛"></a>4.编程能干嘛</h3><p>做游戏<br>做动画<br>解数学题<br>练英语<br>画图</p><h2 id="二、照猫画虎（解数学题）"><a href="#二、照猫画虎（解数学题）" class="headerlink" title="二、照猫画虎（解数学题）"></a>二、照猫画虎（解数学题）</h2><p>证明冰雹猜想</p><h3 id="1-数学语言解法"><a href="#1-数学语言解法" class="headerlink" title="1.数学语言解法"></a>1.数学语言解法</h3><p>方法<br>    1.取正整数n<br>    2.如果n是偶数，n/2<br>    3.如果n是奇数，(n*3)+1<br>    4.重复<br>    5.得到数字1</p><p>例题<br>    3<br>        10<br>            5<br>                16<br>                    8<br>                        4<br>                            2<br>                                1</p><h3 id="2-自然语言解法"><a href="#2-自然语言解法" class="headerlink" title="2.自然语言解法"></a>2.自然语言解法</h3><p>1.创建一个空列表，用于记录变换过程<br>2.输入一个正整数n，然后在一个循环结构中进行变换运算<br>3.将n放在循环控制条件中进行判断。如果不等于1就执行第4步，否则结束循环<br>4.如果n是偶数，则使n=n/2；如果n是奇数，则使n=3n+1<br>5.将变换后的n值记录到列表中，返回到第3步重复执行</p><h3 id="3-编程语言解法"><a href="#3-编程语言解法" class="headerlink" title="3.编程语言解法"></a>3.编程语言解法</h3><p>分为两步，先初始化，开始证明。</p><h4 id="Scratch版本"><a href="#Scratch版本" class="headerlink" title="Scratch版本"></a>Scratch版本</h4><p>​    初始化<br>​    冰雹猜想</p><p><img src="http://q6lsd5k7n.bkt.clouddn.com/scratch%20ini.png" alt></p><p><img src="http://q6lsd5k7n.bkt.clouddn.com/scratch%20bingbao.png" alt></p><p><img src="http://q6lsd5k7n.bkt.clouddn.com/scratch%20start.png" alt></p><h4 id="Python版本"><a href="#Python版本" class="headerlink" title="Python版本"></a>Python版本</h4><p>​    初始化<br>​    冰雹猜想</p><p><img src="http://q6mgnrzz2.bkt.clouddn.com/python%20ini.png" alt></p><p><img src="http://q6mgnrzz2.bkt.clouddn.com/python%20bingbao.png" alt></p><p><img src="http://q6mgnrzz2.bkt.clouddn.com/python%20start.png" alt></p><h4 id="C-版本"><a href="#C-版本" class="headerlink" title="C++版本"></a>C++版本</h4><p>​    初始化<br>​    冰雹猜想</p><p><img src="http://q6mgt5ib5.bkt.clouddn.com/cppini.png" alt></p><p><img src="http://q6mgt5ib5.bkt.clouddn.com/cppbingbao.png" alt></p><p><img src="http://q6mgt5ib5.bkt.clouddn.com/cppstart.png" alt></p>]]></content>
       
       
       <categories>
           
-          <category> 编程语言连连看 </category>
+          <category> 编程语言连连看系列 </category>
           
       </categories>
       

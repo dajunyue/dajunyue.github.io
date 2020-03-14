@@ -2,11 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>大钧曰</title>
   
-  <subtitle>巧学千言，聆听万物</subtitle>
+  <subtitle>巧学千言 聆听万物</subtitle>
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://dajunn.com/"/>
-  <updated>2020-03-12T16:24:55.445Z</updated>
+  <updated>2020-03-14T05:19:08.580Z</updated>
   <id>https://dajunn.com/</id>
   
   <author>
@@ -17,11 +17,11 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>编程语言连连看</title>
-    <link href="https://dajunn.com/2020/03/12/bian-cheng-yu-yan-lian-lian-kan/"/>
-    <id>https://dajunn.com/2020/03/12/bian-cheng-yu-yan-lian-lian-kan/</id>
+    <title>编程语言连连看_第一课</title>
+    <link href="https://dajunn.com/2020/03/12/bian-cheng-yu-yan-lian-lian-kan-di-yi-ke/"/>
+    <id>https://dajunn.com/2020/03/12/bian-cheng-yu-yan-lian-lian-kan-di-yi-ke/</id>
     <published>2020-03-12T15:55:13.000Z</published>
-    <updated>2020-03-12T16:24:55.445Z</updated>
+    <updated>2020-03-14T05:19:08.580Z</updated>
     
     <summary type="html">
     
@@ -35,7 +35,7 @@
     
     </summary>
     
-      <category term="编程语言连连看" scheme="https://dajunn.com/categories/%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80%E8%BF%9E%E8%BF%9E%E7%9C%8B/"/>
+      <category term="编程语言连连看系列" scheme="https://dajunn.com/categories/%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80%E8%BF%9E%E8%BF%9E%E7%9C%8B%E7%B3%BB%E5%88%97/"/>
     
     
   </entry>
