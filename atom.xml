@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://dajunn.com/"/>
-  <updated>2020-03-14T05:19:08.580Z</updated>
+  <updated>2020-03-14T09:22:46.797Z</updated>
   <id>https://dajunn.com/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>英语逆向学习法全书</title>
+    <link href="https://dajunn.com/2020/03/14/ying-yu-ni-xiang-xue-xi-fa-quan-shu/"/>
+    <id>https://dajunn.com/2020/03/14/ying-yu-ni-xiang-xue-xi-fa-quan-shu/</id>
+    <published>2020-03-14T09:22:35.000Z</published>
+    <updated>2020-03-14T09:22:46.797Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;英语学习逆向法&lt;/p&gt;
+&lt;p&gt;钟道隆 著&lt;/p&gt;
+&lt;p&gt;第一章  我怎样学会英语&lt;br&gt;1.1哑巴英语的尴尬&lt;br&gt;　　我上中学时没有学过音标，基本上是跟着教师念，对不对不得， 而知。有时会闹出笑话，例如dining一room中的第一个i，不发
+        
+      
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>编程语言连连看_第一课</title>
@@ -138,7 +162,7 @@
     <link href="https://dajunn.com/2020/03/12/xue-yu-yan-zhi-ni-xiang-fa/"/>
     <id>https://dajunn.com/2020/03/12/xue-yu-yan-zhi-ni-xiang-fa/</id>
     <published>2020-03-12T07:10:15.000Z</published>
-    <updated>2020-03-12T10:52:51.047Z</updated>
+    <updated>2020-03-14T08:06:23.376Z</updated>
     
     <summary type="html">
     
@@ -161,7 +185,7 @@
     <link href="https://dajunn.com/2020/03/12/ni-xiang-fa-qiao-xue-xie-zuo/"/>
     <id>https://dajunn.com/2020/03/12/ni-xiang-fa-qiao-xue-xie-zuo/</id>
     <published>2020-03-12T07:09:54.000Z</published>
-    <updated>2020-03-12T11:08:33.113Z</updated>
+    <updated>2020-03-14T09:06:40.056Z</updated>
     
     <summary type="html">
     
@@ -169,12 +193,8 @@
       
         
         
-          &lt;p&gt;写作的两种世界观&lt;/p&gt;
-&lt;p&gt;一、OOP&lt;/p&gt;
-&lt;p&gt;一切都是对象。&lt;/p&gt;
-&lt;p&gt;写作 = 对象 + 消息&lt;/p&gt;
-&lt;p&gt;二、POP&lt;/p&gt;
-&lt;p&gt;写作 = 结构 +
+          &lt;p&gt;学习中文之写作，写作有两种世界观，面向对象和面向过程。&lt;/p&gt;
+&lt;p&gt;写作需要想象的迸发和情绪的敏感，属于感性生产；而编程则要求严谨的逻辑与冷静的思索，属于理性生产。这两者在思维的要求上看似相异，但其实有许多相通的地方。这种相通，也昭示了一个感性的人，也是可以学好编程的，以
         
       
     
@@ -206,9 +226,17 @@
     <link href="https://dajunn.com/2020/03/12/ni-xiang-fa-qiao-xue-ying-yu/"/>
     <id>https://dajunn.com/2020/03/12/ni-xiang-fa-qiao-xue-ying-yu/</id>
     <published>2020-03-12T07:09:09.000Z</published>
-    <updated>2020-03-12T11:08:36.238Z</updated>
+    <updated>2020-03-14T09:22:10.985Z</updated>
     
     <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;逆向法大全真正的听写实践者&quot;&gt;&lt;a href=&quot;#逆向法大全真正的听写实践者&quot; class=&quot;headerlink&quot; title=&quot;逆向法大全真正的听写实践者&quot;&gt;&lt;/a&gt;逆向法大全真正的听写实践者&lt;/h1&gt;&lt;p&gt;
+        
+      
     
     </summary>
     
@@ -222,7 +250,7 @@
     <link href="https://dajunn.com/2020/03/12/qiao-xue-qian-yan-ling-ting-wan-wu/"/>
     <id>https://dajunn.com/2020/03/12/qiao-xue-qian-yan-ling-ting-wan-wu/</id>
     <published>2020-03-12T05:36:48.000Z</published>
-    <updated>2020-03-12T12:12:50.018Z</updated>
+    <updated>2020-03-14T08:07:55.510Z</updated>
     
     <summary type="html">
     
@@ -425,30 +453,6 @@
     
     
       <category term="Python" scheme="https://dajunn.com/tags/Python/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>用C++只要两大步就画好正方形的方法，你确定不来试试吗？</title>
-    <link href="https://dajunn.com/2020/03/03/c-zhi-yao-liang-da-bu-jiu-hua-hao-zheng-fang-xing-de-fang-fa-ni-que-ding-bu-lai-shi-shi-ma/"/>
-    <id>https://dajunn.com/2020/03/03/c-zhi-yao-liang-da-bu-jiu-hua-hao-zheng-fang-xing-de-fang-fa-ni-que-ding-bu-lai-shi-shi-ma/</id>
-    <published>2020-03-03T14:34:59.000Z</published>
-    <updated>2020-03-12T11:09:51.684Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h1 id=&quot;准备工作&quot;&gt;&lt;a href=&quot;#准备工作&quot; class=&quot;headerlink&quot; title=&quot;准备工作&quot;&gt;&lt;/a&gt;准备工作&lt;/h1&gt;&lt;p&gt;//准备工作&lt;img
-        
-      
-    
-    </summary>
-    
-    
-      <category term="C++" scheme="https://dajunn.com/tags/C/"/>
     
   </entry>
   
